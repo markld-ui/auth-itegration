@@ -1,3 +1,14 @@
+# Auth — ОНИ
+
+Проверка: `npm ci`, `npm run lint`, `npm test`, `npm run build`.
+GitHub Actions: [Auth CI](https://github.com/markld-ui/auth-itegration/actions).
+
+Полный запуск трёх сервисов и сценарии лабораторных описаны в
+[Account RUNBOOK](https://github.com/markld-ui/account-itegration/blob/main/RUNBOOK.md).
+Репозитории должны располагаться рядом в каталогах `account`, `auth`, `transaction`.
+Общий Compose находится в `account/docker/docker-compose.yml`; `.env` для этого
+режима не требуется. Swagger: http://localhost:9001/api/auth/docs.
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
